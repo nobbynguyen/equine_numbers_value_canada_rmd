@@ -65,9 +65,9 @@ time point between 1940 - 1972:
 Table 1. Horse populations of each province in Canada between 1940 -
 1972
 
-Below we zoom in and look at the province of Alberta:
+Below we zoom in and look at the province of British Columbia:
 
-<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" title="Figure 2. Historical number of horses in  Alberta" alt="Figure 2. Historical number of horses in  Alberta" width="100%" />
+<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" title="Figure 2. Historical number of horses in  British Columbia" alt="Figure 2. Historical number of horses in  British Columbia" width="100%" />
 
 # References
 

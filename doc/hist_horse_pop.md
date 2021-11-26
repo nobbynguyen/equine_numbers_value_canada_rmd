@@ -5,6 +5,7 @@ Historical horse population in Canada
 -   [Data](#data)
 -   [Methods](#methods)
 -   [Results](#results)
+-   [References](#references)
 
 ## Aim
 
@@ -23,11 +24,15 @@ two sources were used:
     farm
     value](http://open.canada.ca/data/en/dataset/b374f60b-9580-44dc-83f6-c0a850c15f30)
 
+There was an interesting paper about horse weight previously (Milner and
+Hewitt 1969).
+
 ## Methods
 
-The R programming language and the following R packages were used to
-perform the analysis: knitr and tidyverse. The code used to perform the
-analysis and create this report can be found here:
+The R programming language (R Core Team 2021) and the following R
+packages were used to perform the analysis: knitr (Xie 2021) and
+tidyverse (Wickham et al. 2019). The code used to perform the analysis
+and create this report can be found here:
 <https://github.com/ttimbers/equine_numbers_value_canada_rmd>.
 
 ## Results
@@ -63,3 +68,41 @@ Table 1. Horse populations of each province in Canada between 1940 -
 Below we zoom in and look at the province of Alberta:
 
 <img src="hist_horse_pop_files/figure-gfm/plot province-1.png" title="Figure 2. Historical number of horses in  Alberta" alt="Figure 2. Historical number of horses in  Alberta" width="100%" />
+
+# References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-milner1969weight" class="csl-entry">
+
+Milner, Jean, and D Hewitt. 1969. “Weight of Horses: Improved Estimates
+Based on Girth and Length.” *The Canadian Veterinary Journal* 10 (12):
+314.
+
+</div>
+
+<div id="ref-R" class="csl-entry">
+
+R Core Team. 2021. *R: A Language and Environment for Statistical
+Computing*. Vienna, Austria: R Foundation for Statistical Computing.
+<https://www.R-project.org/>.
+
+</div>
+
+<div id="ref-tidyverse" class="csl-entry">
+
+Wickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy
+D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.
+“Welcome to the <span class="nocase">tidyverse</span>.” *Journal of Open
+Source Software* 4 (43): 1686. <https://doi.org/10.21105/joss.01686>.
+
+</div>
+
+<div id="ref-knitr" class="csl-entry">
+
+Xie, Yihui. 2021. *Knitr: A General-Purpose Package for Dynamic Report
+Generation in r*. <https://yihui.org/knitr/>.
+
+</div>
+
+</div>

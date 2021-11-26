@@ -62,4 +62,4 @@ Table 1. Horse populations of each province in Canada between 1940 -
 
 Below we zoom in and look at the province of Alberta:
 
-<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" title="Figure 2. Historical number of horses in Alberta" alt="Figure 2. Historical number of horses in Alberta" width="100%" />
+<img src="hist_horse_pop_files/figure-gfm/plot province-1.png" title="Figure 2. Historical number of horses in  Alberta" alt="Figure 2. Historical number of horses in  Alberta" width="100%" />

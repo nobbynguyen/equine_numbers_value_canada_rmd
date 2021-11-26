@@ -1,8 +1,11 @@
 ---
 title: "Historical horse population in Canada"
+params:
+  province: "Alberta"
 output: 
   github_document:
     toc: true
+
 ---
 
 ```{r setup, include=FALSE}
@@ -43,7 +46,6 @@ horse_plot <- ggplot(horse_pop, aes(x = Ref_Date, y = Value)) +
   geom_line() +
   xlab("Year") +
   ylab("Number of horses") +
-  ggtitle("Historical number of horses per province in Canada") +
   facet_grid(~GEO) +
   scale_y_continuous(labels = scales::comma) +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
@@ -67,9 +69,9 @@ max_horses <- horse_pop %>%
 knitr::kable(max_horses, caption = "Table 1. Horse populations of each province in Canada between 1940 - 1972")
 ```
 
-Below we zoom in and look at the province of Alberta:
+Below we zoom in and look at the province of `r params$province`:
 
-```{r plot province, fig.width=5, fig.height=4, fig.cap = "Figure 2. Historical number of horses in Alberta", out.width = '100%'}
+```{r plot province, fig.width=5, fig.height=4, fig.cap = paste("Figure 2. Historical number of horses in ",params$province), out.width = '100%'}
 province_plot <- horse_pop %>% 
   filter(GEO == "Alberta") %>% 
   ggplot(aes(x = Ref_Date, y = Value)) +
